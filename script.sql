@@ -1,11 +1,11 @@
 
-CREATE USER 19lab IDENTIFIED BY 19lab;
-
-GRANT DBA TO 19lab;
-
 ALTER SESSION SET CONTAINER=PDB1;
 
-CONNECT 19lab/19lab;
+CREATE USER nf19c IDENTIFIED BY nf19c;
+
+GRANT DBA TO nf19c;
+
+CONNECT nf19c/nf19c;
 
 --@/home/oracle/kl_moviestream-main/MovieStream_DDL.sql
 --@/home/oracle/kl_moviestream-main/genre.sql
