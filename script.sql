@@ -1,5 +1,5 @@
 
-CONNECT / AS SYSDBA;
+sql / as sysdba;
 
 CREATE USER 19lab IDENTIFIED BY 19lab;
 
