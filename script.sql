@@ -1,6 +1,4 @@
 
-sql / as sysdba;
-
 CREATE USER 19lab IDENTIFIED BY 19lab;
 
 GRANT DBA TO 19lab;
