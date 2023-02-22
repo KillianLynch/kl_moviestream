@@ -1,6 +1,10 @@
 
 ALTER SESSION SET CONTAINER=PDB1;
 
+ALTER SESSION SET nls_date_format='mm/dd/yyyy';
+
+ALTER SESSION SET nls_timestamp_format='yyyy-mm-dd';
+
 CREATE USER nf19c IDENTIFIED BY WElcome123##;
 
 GRANT CONNECT TO nf19c;
